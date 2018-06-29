@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box;
+  padding: 0; }
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7; }
+
+.circles__logo {
+  display: inline-block;
+  margin-bottom: 5rem;
+  text-align: center;
+  width: 100%; }
+
+.circles__content {
+  margin-top: 20rem;
+  width: 100%; }
+  .circles__content--circles {
+    position: relative; }
+  .circles__content--circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+
+.section-circles {
+  background-color: #343233;
+  padding-bottom: 15rem;
+  color: #efdab9; }
+
+.wrapper {
+  margin: 0 auto;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  padding: 20rem; }
