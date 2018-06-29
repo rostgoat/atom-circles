@@ -5,6 +5,9 @@
 @import "base/animations";
 @import "base/typography";
 
-@import "components/_circles";
+@import "components/circles";
+@import "components/wrapper-circles";
+
+@import "layouts/flex-container";
 
 @import "pages/home";

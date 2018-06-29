@@ -1,0 +1,30 @@
+.wrapper {
+  width: 36.6rem;
+  height: 36.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__logo {
+    position: absolute;
+
+    &-wordmark {
+      display: block;
+      margin-bottom: 1rem;
+    }
+
+    &-icon {
+      display: block;
+      margin-bottom: 1rem;
+      transition: transform .3s, visibility 0s, opacity 0.4s linear;
+
+
+      &:hover {
+        transform: scale(5.03);
+        opacity: 0;
+        cursor: pointer;
+      }
+
+    }
+  }
+}
